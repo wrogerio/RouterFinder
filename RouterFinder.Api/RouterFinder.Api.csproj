@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RouterFinder.Application\RouterFinder.Application.csproj" />
+    <ProjectReference Include="..\RouterFinder.Domain\RouterFinder.Domain.csproj" />
+    <ProjectReference Include="..\RouterFinder.IoC\RouterFinder.IoC.csproj" />
+  </ItemGroup>
+
+</Project>

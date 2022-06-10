@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RouterFinder.Application\RouterFinder.Application.csproj" />
+    <ProjectReference Include="..\RouterFinder.Domain\RouterFinder.Domain.csproj" />
+    <ProjectReference Include="..\RouterFinder.Infra\RouterFinder.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
